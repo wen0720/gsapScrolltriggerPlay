@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html, body{
+      margin: 0;
+    }
+    .wrapper{
+      height: 30vh;
+      width: 100%;
+    }
+    .red{
+      background-color: red;
+      z-index: 1;
+      opacity: 0.5;
+    }
+    .blue{
+      background-color: blue;
+      z-index: 2;
+      opacity: 0.5;
+    }
+    .yellow{
+      background-color: yellow;
+      z-index: 3;
+      opacity: 0.5;
+    }
+    .relative{
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper red relative"></div>
+    <div class="wrapper blue relative"></div>
+    <div class="wrapper yellow relative"></div>
+  </div>
+</body>
+</html>
